@@ -1,4 +1,4 @@
-.out
-.o
-.x
+*.out
+*.o
+*.x
 output
