@@ -1,0 +1,203 @@
+    1  /cita/local/bin/passwd
+    2  logout
+    3  whoami
+    4  w
+    5  pwd
+    6  ls
+    7  w
+    8  ls..
+    9  ls ..
+   10  ls ../..
+   11  ls
+   12  ls .
+   13  ls ~
+   14  pwd
+   15  cd
+   16  ~
+   17  cd
+   18  pwd
+   19  echo $0
+   20  ls
+   21  ls -la
+   22  cd Pictures/
+   23  ls
+   24  ls la
+   25  ls -la
+   26  cd ..
+   27  ls
+   28  cd
+   29  cd Desktop/
+   30  ls
+   31  ls -la
+   32  cd ~murray
+   33  ls
+   34  cd /Papers
+   35  cd Papers
+   36  cd Hopkins/
+   37  cd All_Feedback/
+   38  cd second_draft/
+   39  ls
+   40  ls -la
+   41  evince sfh_vs_fbmodel.pdf 
+   42  ls -la
+   43  evince sfh_vs_fbmodel.pdf 
+   44  history
+   45  history -4
+   46  history 4
+   47  pwd
+   48  cd
+   49  pwd
+   50  which vi
+   51  which vim
+   52  vim list_dir
+   53  cd
+   54  ls
+   55  list_dir
+   56  ls list_dir
+   57  pwd
+   58  vim list_dir
+   59  ls
+   60  ls -la list_dir 
+   61  rm list_dir
+   62  ls -la
+   63  ls -a
+   64  ls -l
+   65  pwd
+   66  cd Desktop/
+   67  mkdir test_folder
+   68  pwd
+   69  rm test_folder/
+   70  rmdir test_folder/
+   71  cd ~murray
+   72  find . Hello_world.py
+   73  pwd
+   74  find . -name "Hello_world.py
+   75  "
+   76  python
+   77  ls -la
+   78  logout
+   79  pythn
+   80  python
+   81  python2
+   82  python2 --version
+   83  module avail
+   84  w
+   85  module load gcc
+   86  gcc --version
+   87  module load python
+   88  module list
+   89  python
+   90* 
+   91  find -name "*Hello*"
+   92  cd ~mmurray
+   93  cd ~murray
+   94  find -name "*Hello*"
+   95  find -name "*Hello*" -print
+   96  python
+   97  cd /mnt
+   98  ls
+   99  cd scratch-lustre/
+  100  pwd
+  101  ls
+  102  cd student10
+  103  pwd
+  104  ls
+  105  pwd
+  106  mkdir CTA200_2022
+  107  ls
+  108  cd CTA200_2022/
+  109  mkdir assignment_1
+  110  cd ..
+  111  ls
+  112  cd CTA200_2022/
+  113  ls
+  114  cd assignment_1/
+  115  ls
+  116  pwd
+  117  vim README.md
+  118  ls
+  119  ls README.md 
+  120  README.md
+  121  vim README.md 
+  122  cd ~murray
+  123  find -name "*Hello*" -print
+  124  pushd ~student10/mnt/scratch-lustre/student10/CTA200_2022/assignment_1
+  125  pushd /mnt/scratch-lustre/student10/CTA200_2022/assignment_1
+  126  pushd
+  127  ls
+  128  pushd
+  129  ls
+  130  pwd
+  131  pushd
+  132  pwd
+  133  pushd
+  134  pwd
+  135  ls
+  136  ls -la
+  137  pushd
+  138  ls -la
+  139  pwd
+  140  ls
+  141  cd tmp
+  142  ls
+  143  pwd
+  144  cp Hello_world.py /mnt/scratch-lustre/student10/CTA200_2022/assignment_1/
+  145  pushd
+  146  pwd
+  147  ls
+  148  cd ~murray
+  149  cd Papers
+  150  cd tmp
+  151  ls
+  152  cp Hello_world.c pushd
+  153  cp Hello_world.c /mnt/scratch-lustre/student10/CTA200_2022/assignment_1/
+  154  pushd
+  155  pwd
+  156  pushd
+  157  pwd
+  158  pod
+  159  popd
+  160  pushd
+  161  cd
+  162  cd /mnt/scratch-lustre/student10/CTA200_2022/assignment_1/
+  163  ls
+  164  mv Hello_world.c Hello_world_pardines_niebres.c
+  165  ls
+  166  mv Hello_world.py Hello_world_pardines_niebres.py
+  167  ls
+  168  python Hello_world_pardines_niebres.py
+  169  module load gcc
+  170  gcc Hello_world_pardines_niebres.c
+  171  ls
+  172  mv a.out Hellow_world.out
+  173  Hellow_world.out
+  174  gcc Hellow_world.out 
+  175  ls
+  176  rm Hellow_world.out 
+  177  ls
+  178  gcc Hello_world_pardines_niebres.c Hello_world
+  179  ls
+  180  gcc Hello_world_pardines_niebres.c -o Hello_world
+  181  ls
+  182  ./Hello_world 
+  183  rm Hello_world
+  184  ls
+  185  gcc Hello_world_pardines_niebres.c Hello_world.out
+  186  gcc Hello_world_pardines_niebres.c -o Hello_world.out
+  187  ls
+  188  ./Hello_world.out 
+  189  ls
+  190  vi Hello_world_pardines_niebres.c
+  191  vi Hello_world
+  192  ls
+  193  vi Hello_world.out
+  194  gcc Hello_world_pardines_niebres.c -o Hello_world.out
+  195  ./Hello_world.out > output_c.txt
+  196  ls
+  197  output_c.text
+  198  vi Hello_world_pardines_niebres.py
+  199  python Hello_world_pardines_niebres.py 
+  200  python Hello_world_pardines_niebres.py > output_python.txt
+  201  ls
+  202  history
+  203  history > history.txt
