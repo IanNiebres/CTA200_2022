@@ -1,4 +1,5 @@
 *.out
 *.o
 *.x
+*.ipynb_checkpoints
 output
