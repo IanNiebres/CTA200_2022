@@ -7,6 +7,7 @@
 *.fls
 *.log
 *.synctex.gz
+Assignment Template.tex
 .DS_Store
 output
 __pycache__
