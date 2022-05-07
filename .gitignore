@@ -2,4 +2,11 @@
 *.o
 *.x
 *.ipynb_checkpoints
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+.DS_Store
 output
+__pycache__
