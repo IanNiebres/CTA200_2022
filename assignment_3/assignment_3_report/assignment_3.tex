@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{textcomp}
@@ -156,15 +156,7 @@ plot was made using \texttt{pyplot} from
 \texttt{matplotlib}. This figure is a plot of Y values of the
 numerical solution to the ODEs in \cref{q2:eq1} to \cref{q2:eq3}.
 
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\linewidth]{../plots/a3q2_y_vs_t.pdf}
-    \caption{Plots of Y values of the
-    numerical solution to the ODEs in \cref{q2:eq1} to \cref{q2:eq3}.
-    Top: first 1000 iterations. Middle: iteration 1000 to
-    2000. Bottom: iteration 2000 to 3000.}
-    \label{q2:1}
-\end{figure}
+
 
 \subsection*{Task 4}
 We were then tasked to recreate Figure 2, which are phase space
@@ -172,18 +164,6 @@ plots in the Y-X and Y-Z plane. Similar to what we did in Task 1,
 but instead we are looking through iterations
 1400 to 1900. See \cref{q2:2} and plotting different
 values on the axes.
-
-\begin{figure}[b]
-    \centering
-    \includegraphics[width=0.5\linewidth]{../plots/a3q2_phase.pdf}
-    \caption{Phase space plots of the
-    numerical solution to the ODEs in \cref{q2:eq1} to \cref{q2:eq3}.
-    Note, markers labeled
-    14 to 19 indicate the solution at
-    iterations 1400 to 1900, respectively. Top: Y-Z.
-    2000. Bottom: Y-X phase space.}
-    \label{q2:2}
-\end{figure}
 
 \subsection*{Task 5}
 Now we wish to perturb the initial conditions
@@ -202,7 +182,29 @@ on a semilog plot using \texttt{pyplot.semilogy}, where
 the time on the $x$-axis is linear, and the distance
 on the $y$-axis is logarithmic. See \cref{q2:3}.
 
-\begin{figure}[b]
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{../plots/a3q2_y_vs_t.pdf}
+    \caption{Plots of Y values of the
+    numerical solution to the ODEs in \cref{q2:eq1} to \cref{q2:eq3}.
+    Top: first 1000 iterations. Middle: iteration 1000 to
+    2000. Bottom: iteration 2000 to 3000.}
+    \label{q2:1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{../plots/a3q2_phase.pdf}
+    \caption{Phase space plots of the
+    numerical solution to the ODEs in \cref{q2:eq1} to \cref{q2:eq3}.
+    Note, markers labeled
+    14 to 19 indicate the solution at
+    iterations 1400 to 1900, respectively. Top: Y-Z.
+    2000. Bottom: Y-X phase space.}
+    \label{q2:2}
+\end{figure}
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{../plots/a3q2_dist_vs_t.pdf}
     \caption{Distance between solutions \texttt{W} and \texttt{W'}
